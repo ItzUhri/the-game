@@ -1,0 +1,190 @@
+[gd_scene load_steps=9 format=4 uid="uid://7pc8e7g7tlmg"]
+
+[ext_resource type="Texture2D" uid="uid://kcd8e2w0ukn4" path="res://Assets/Tiles/speartrap.png" id="1_3s3rc"]
+[ext_resource type="Texture2D" uid="uid://cyedqcvgkb0fx" path="res://Assets/Tiles/spear traps1.png" id="2_a4sbp"]
+[ext_resource type="Texture2D" uid="uid://co6vqcvim2cu6" path="res://Assets/Tiles/spear trap2.png" id="3_pccqf"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_aveqk"]
+texture = ExtResource("1_3s3rc")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+5:7/0 = 0
+6:7/0 = 0
+7:7/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+5:8/0 = 0
+6:8/0 = 0
+7:8/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_im78n"]
+texture = ExtResource("2_a4sbp")
+0:0/0 = 0
+5:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+14:0/0 = 0
+0:1/0 = 0
+5:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+14:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+5:2/0 = 0
+9:2/0 = 0
+10:2/0 = 0
+14:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+5:3/0 = 0
+9:3/0 = 0
+10:3/0 = 0
+14:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+9:4/0 = 0
+10:4/0 = 0
+14:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+5:5/0 = 0
+9:5/0 = 0
+10:5/0 = 0
+14:5/0 = 0
+0:6/0 = 0
+5:6/0 = 0
+9:6/0 = 0
+10:6/0 = 0
+14:6/0 = 0
+0:7/0 = 0
+5:7/0 = 0
+9:7/0 = 0
+10:7/0 = 0
+14:7/0 = 0
+0:8/0 = 0
+5:8/0 = 0
+9:8/0 = 0
+10:8/0 = 0
+14:8/0 = 0
+0:9/0 = 0
+5:9/0 = 0
+9:9/0 = 0
+10:9/0 = 0
+14:9/0 = 0
+0:10/0 = 0
+5:10/0 = 0
+9:10/0 = 0
+10:10/0 = 0
+14:10/0 = 0
+0:11/0 = 0
+5:11/0 = 0
+9:11/0 = 0
+10:11/0 = 0
+14:11/0 = 0
+0:12/0 = 0
+5:12/0 = 0
+9:12/0 = 0
+10:12/0 = 0
+14:12/0 = 0
+0:13/0 = 0
+5:13/0 = 0
+9:13/0 = 0
+10:13/0 = 0
+14:13/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_b1d7y"]
+texture = ExtResource("3_pccqf")
+0:0/0 = 0
+0:1/0 = 0
+0:2/0 = 0
+0:3/0 = 0
+0:4/0 = 0
+0:5/0 = 0
+0:6/0 = 0
+0:7/0 = 0
+0:8/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_wu1rw"]
+sources/0 = SubResource("TileSetAtlasSource_aveqk")
+sources/1 = SubResource("TileSetAtlasSource_im78n")
+sources/2 = SubResource("TileSetAtlasSource_b1d7y")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8fvfn"]
+size = Vector2(10, 130)
+
+[node name="trap" type="Node2D"]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAAAAP3/AgAAAAAAAAAAAP7/AgAAAAEAAAAAAP//AgAAAAIAAAAAAAAAAgAAAAMAAAAAAAEAAgAAAAQAAAAAAAIAAgAAAAUAAAAAAAMAAgAAAAYAAAAAAAQAAgAAAAcAAAAAAAUAAgAAAAgAAAA=")
+tile_set = SubResource("TileSet_wu1rw")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(10, 19)
+shape = SubResource("RectangleShape2D_8fvfn")

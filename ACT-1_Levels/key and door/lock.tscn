@@ -1,0 +1,156 @@
+[gd_scene load_steps=23 format=3 uid="uid://b6aq0s2pvtnsh"]
+
+[ext_resource type="Script" path="res://ACT-1_Levels/key and door/lock.gd" id="1_yb7we"]
+[ext_resource type="Texture2D" uid="uid://d3xqy608g6urf" path="res://Assets/key and door/GOLD/Hefty Padlock - GOLD - Spritesheet.png" id="2_qstx2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t3f8y"]
+atlas = ExtResource("2_qstx2")
+region = Rect2(0, 0, 24, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uadsw"]
+atlas = ExtResource("2_qstx2")
+region = Rect2(24, 0, 24, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d00by"]
+atlas = ExtResource("2_qstx2")
+region = Rect2(48, 0, 24, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5qb34"]
+atlas = ExtResource("2_qstx2")
+region = Rect2(72, 0, 24, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xbyph"]
+atlas = ExtResource("2_qstx2")
+region = Rect2(96, 0, 24, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tefwa"]
+atlas = ExtResource("2_qstx2")
+region = Rect2(120, 0, 24, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xec4x"]
+atlas = ExtResource("2_qstx2")
+region = Rect2(144, 0, 24, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1mecw"]
+atlas = ExtResource("2_qstx2")
+region = Rect2(168, 0, 24, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n311s"]
+atlas = ExtResource("2_qstx2")
+region = Rect2(192, 0, 24, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wlun8"]
+atlas = ExtResource("2_qstx2")
+region = Rect2(216, 0, 24, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4n6as"]
+atlas = ExtResource("2_qstx2")
+region = Rect2(240, 0, 24, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ej1fw"]
+atlas = ExtResource("2_qstx2")
+region = Rect2(264, 0, 24, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k227h"]
+atlas = ExtResource("2_qstx2")
+region = Rect2(288, 0, 24, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0dgll"]
+atlas = ExtResource("2_qstx2")
+region = Rect2(312, 0, 24, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yfljc"]
+atlas = ExtResource("2_qstx2")
+region = Rect2(336, 0, 24, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hw4i3"]
+atlas = ExtResource("2_qstx2")
+region = Rect2(360, 0, 24, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6j5uj"]
+atlas = ExtResource("2_qstx2")
+region = Rect2(384, 0, 24, 33)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nltmh"]
+atlas = ExtResource("2_qstx2")
+region = Rect2(408, 0, 24, 33)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_m550v"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t3f8y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uadsw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d00by")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5qb34")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xbyph")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tefwa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xec4x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1mecw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n311s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wlun8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4n6as")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ej1fw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k227h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0dgll")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yfljc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hw4i3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6j5uj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nltmh")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_21hlf"]
+size = Vector2(30, 32)
+
+[node name="lock" type="Node2D"]
+script = ExtResource("1_yb7we")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_m550v")
+autoplay = "default"
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(1, 3)
+shape = SubResource("RectangleShape2D_21hlf")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
